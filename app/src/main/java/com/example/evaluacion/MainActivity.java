@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btnAcercaDe:{
-                //Intent i3 = new Intent(this, ListaGustosActivity.class);
-               // startActivity(i3);
-               // break;
+                Intent i3 = new Intent(this, AcercaDeActivity.class);
+                startActivity(i3);
+                finish();
+                break;
             }
             case R.id.btnSalir:{
 
