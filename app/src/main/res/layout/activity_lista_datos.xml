@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".ListaDatosActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo8"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/lsvComidas"
+        android:layout_width="match_parent"
+        android:layout_height="358dp" />
+    <ProgressBar
+        android:id="@+id/pbPorcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#28a745"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+</LinearLayout>
