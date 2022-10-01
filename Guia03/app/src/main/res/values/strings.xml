@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guia03</string>
+    <string name="msg_select_worker">Seleccione el tipo trabajador</string>
+    <string name="name_activity_select">Seleccionar</string>
+    <string name="id">ID</string>
+    <string name="nombre">Dannis Osmel Sanchez Lopez</string>
+    <string name="correo">SL14I04001@USONSONATE.EDU.SV</string>
+</resources>

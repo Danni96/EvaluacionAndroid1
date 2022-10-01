@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Evaluacion</string>
+    <string name="dev1">Dannis Osmel Sanchez Lopez</string>
+    <string name="dev2">Franklin Abelino Espinoza Otero</string>
+    <string name="cod1">SL14-I04-001</string>
+    <string name="cod2">EO17-I04-001</string>
+    <string name="titulo1">Tu Encuesta SV</string>
+    <string name="titulo2">Desarrolladores</string>
+    <string name="titulo3">Solicitar Datos</string>
+    <string name="titulo4">Datos del Encuestado</string>
+    <string name="txtNombre">Nombres</string>
+    <string name="txtGenero">Genero</string>
+    <string name="opcion1">Masculino</string>
+    <string name="opcion2">Femenino</string>
+    <string name="opcion3">Otros</string>
+    <string name="txtEdad">Edad</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="titulo5">Categorias Comidas</string>
+    <string name="titulo6">Elija una categoria</string>
+    <string name="txtCarnes">Carnes</string>
+    <string name="txtEnsaladas">Ensaladas</string>
+    <string name="txtFrutas">Frutas</string>
+    <string name="titulo7">Lista de comidas</string>
+    <string name="titulo8">Seleccione su comida favorita</string>
+    <string name="txtCarne">Carne Asada</string>
+    <string name="acerca">Acerca De</string>
+    <string name="btnAgregar">Agregar Encuesta</string>
+    <string name="btnMostrar">Mostrar Datos</string>
+    <string name="btnSalir">Salir</string>
+</resources>
