@@ -2,6 +2,8 @@ package com.example.evaluacion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -44,7 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btnSalir:{
-                finish();
+                new AlertDialog.Builder(this).setTitle("¡Aviso!")
+                        .setMessage("¿Desea saliar de la app?")
+                        .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                finish();
+                            }
+                        }).show();
                 break;
             }
         }

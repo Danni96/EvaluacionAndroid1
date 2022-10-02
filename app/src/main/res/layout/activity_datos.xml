@@ -31,17 +31,20 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:layout_marginStart="20dp"
+            android:inputType="text"
             android:hint="Digite el nombre"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Genero: "
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:textSize="20sp"/>
     <RadioGroup
+        android:id="@+id/rgGrupo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="20dp">
         <RadioButton
             android:id="@+id/rbMasculino"
@@ -65,7 +68,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
@@ -77,7 +80,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="47dp"
+            android:inputType="number"
             android:hint="Digite la edad"/>
     </LinearLayout>
     <Button

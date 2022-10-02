@@ -27,6 +27,7 @@
             android:exported="false" />
         <activity
             android:name=".DatosActivity"
+            android:label="@string/titulo3"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

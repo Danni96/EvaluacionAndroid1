@@ -1,20 +1,20 @@
 package com.example.evaluacion.Model;
 
-public abstract class Persona {
+public  class Persona {
     private String nombre;
     private String genero;
     private Integer edad;
+    private String comidaFavoria;
 
-    public Persona(String nombre, String genero, Integer edad) {
+    public Persona(String nombre, String comidaFavorita) {
         this.nombre = nombre;
-        this.genero = genero;
-        this.edad = edad;
+        this.comidaFavoria = comidaFavorita;
     }
 
     public Persona() {
-
+        this.genero = "M";
+        this.edad = 0;
     }
-
     public String getNombre() {
         return nombre;
     }
@@ -37,6 +37,19 @@ public abstract class Persona {
 
     public void setEdad(Integer edad) {
         this.edad = edad;
+    }
+
+    public String getComidaFavoria() {
+        return comidaFavoria;
+    }
+
+    public void setComidaFavoria(String comidaFavoria) {
+        this.comidaFavoria = comidaFavoria;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona " + this.nombre;
     }
 
 
