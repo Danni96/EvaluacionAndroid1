@@ -18,6 +18,7 @@
     <ListView
         android:id="@+id/lsvComidas"
         android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="358dp" />
     <ProgressBar
         android:id="@+id/pbPorcentaje"

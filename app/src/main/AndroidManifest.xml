@@ -21,9 +21,11 @@
             android:exported="false" />
         <activity
             android:name=".ListaDatosActivity"
+            android:label="@string/titulo7"
             android:exported="false" />
         <activity
             android:name=".SeleccionarActivity"
+            android:label="@string/titulo5"
             android:exported="false" />
         <activity
             android:name=".DatosActivity"

@@ -96,16 +96,4 @@
             android:text="V 1.0"/>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="#281031"
-        android:text="Volver"
-        android:textAllCaps="false"
-        android:textSize="20sp"/>
-
 </LinearLayout>

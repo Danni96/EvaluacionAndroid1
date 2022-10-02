@@ -50,7 +50,7 @@ public class DatosActivity extends AppCompatActivity implements View.OnClickList
                         }
                     }).show();
         }else {
-            Intent intent = new Intent(this, ListaDatosActivity.class);
+            Intent intent = new Intent(this, SeleccionarActivity.class);
             intent.putExtra("nombre", ed_Nombre.getText().toString());
             startActivity(intent);
         }
