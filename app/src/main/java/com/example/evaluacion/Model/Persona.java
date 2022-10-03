@@ -1,5 +1,7 @@
 package com.example.evaluacion.Model;
 
+import java.util.List;
+
 public  class Persona {
     private String nombre;
     private String genero;
@@ -9,11 +11,11 @@ public  class Persona {
     public Persona(String nombre, String comidaFavorita) {
         this.nombre = nombre;
         this.comidaFavoria = comidaFavorita;
+        this.genero = "";
+        this.edad = 0;
     }
 
     public Persona() {
-        this.genero = "M";
-        this.edad = 0;
     }
     public String getNombre() {
         return nombre;
@@ -49,8 +51,6 @@ public  class Persona {
 
     @Override
     public String toString() {
-        return "Persona " + this.nombre;
+        return this.nombre + "\t\t\t" +  this.comidaFavoria;
     }
-
-
 }

@@ -44,6 +44,7 @@ public class SeleccionarActivity extends AppCompatActivity {
             intent.putExtra("nombre", nombre);
             intent.putExtra("seleccion", seleccion.getText().toString() );
             startActivity(intent);
+            finish();
         }else{
             Toast.makeText(this, "Debe seleccionar una opción", Toast.LENGTH_SHORT).show();
         }
