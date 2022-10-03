@@ -28,4 +28,5 @@
     <string name="btnAgregar">Agregar Encuesta</string>
     <string name="btnMostrar">Mostrar Datos</string>
     <string name="btnSalir">Salir</string>
+    <string name="mostrarLista">Mostrar Lista</string>
 </resources>
